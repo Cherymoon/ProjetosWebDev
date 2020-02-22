@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+    color: #999E36
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+#container {
+    width: 95%;
+    margin: 0 auto;
+    min-width: 760px;
+}
+
+header {
+    background: url(imagens/topo-imagem-principal.png) no-repeat;
+    height: 250px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+h1#logo {
+    text-indent: -1000px;
+    margin-bottom: -30px    
+}
+
+#top-side {
+    background: url(imagens/topo-imagem-lateral.png) no-repeat right;
+    background-size: 555px 250px;
+    height: 250px;
+}
+
+#top-side #logo-img {
+    margin-top: 10px
+}
+
+#inner-top {
+    width: 460px;
+    float: right;
+    padding: 20px;
+
+}
+
+#reservar {
+    border-top: 1px solid #999E36;
+    border-bottom: 1px solid #999E36;
+    padding: 8px 0;
+    margin-left: 20px;
+}
+
+#reservar p {
+    display: inline;
+    font-size: 14px;
+}
+
+#reservar input {
+    background-color: #999E36;
+    border: none;
+    color: #fff;
+    padding: 7px 15px;
+    float: right;
+    margin-top: -5px;
+    cursor: pointer;    
+}
+
+#reservar input:hover {
+    background-color: #73781B;
+}
+nav {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 150px;
+    float: left;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #646812;
+}
+
+ul li a:hover {
+    color: #646812;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#depoimento {
+    float: left;
+    margin-top: 10px;
+    
+}
+
+#inside {
+    background: url(imagens/bg-container.png) center center;
+    
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+#inside p {
+    color: black;
+    margin: 10px 0;
+}
+
+#main-content, #aside-content {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 50%;
+    float: left;
+}
+
+.link {
+    border-bottom: 1px solid #F2F6B7;
+    padding: 10px;
+}
+.link img {
+    width: 150px;
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+
+.descricao p {
+    font-size: 14px;
+}
+
+.descricao h2 {
+    font-size: 18px;
+    color: #5B5F0E;
+}
+
+#aside-content a{
+    text-decoration: none;
+}
+
+#aside-content .link:hover {
+    background-color: #A2A574;
+    border-radius: 5px;
+}
+
+#main-content {
+    background: url(imagens/bg-area-principal.png) repeat-x;
+}
+
+#aside-content {
+    background: url(imagens/bg-area-lateral.png) repeat-x;
+}
+
+footer {
+    text-align: center;
+    line-height: 50px;
+    background-color: #CBD077;
+    color: white;
+}
