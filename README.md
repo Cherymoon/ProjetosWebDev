@@ -1,5 +1,6 @@
 # ProjetosWebDev
 Esse repositório contém os projetos que realizei durante curso de desenvolvimento web.
+Segue abaixo algumas prévias.
 
 Projeto 1: Html puro, utilização da metologia de tabelas para desenvolver o layout.
 ![p1](https://user-images.githubusercontent.com/47941429/75451853-025b1200-5950-11ea-82d7-6d1d69e21ec7.png)
