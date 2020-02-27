@@ -1,228 +1,188 @@
 /* Estrutura do site
-*/
-* {
-	margin:0;
-	padding: 0;
-}
-
+------------------------------------ */
 body {
-	font-family: Helvetica, "Trebuchet MS", sans-serif;
-	background: #fff url(../imagens/bg.png);
-	margin: 15px;
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
 #container {
-	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+	width: 1080px;
 	margin: 0 auto;
-	min-width: 740px;
-	max-width: 1180px;
 }
 
-#topo {
-	position: relative;
-	background: #dbcd87;
-	height: 15.4em;
-	min-height: 250px;
-}
-
-#area-logo {
-	position: absolute;
-	background: url(../imagens/topo-imagem-principal.png) no-repeat;
-	width: 100%;
-	height: 250px;
-	top: 0;
-	left: 0;
-	z-index: 1;
-}
-
-.logo a {
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	z-index: 3;
-	background: url(../imagens/logo.png) no-repeat;
-	width: 151px;
-	height: 66px;
-	text-indent: -9000px;
-}
-
-#area-menu {
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: url(../imagens/topo-imagem-lateral.png) no-repeat; ;
-	width: 450px;
-	height: 250px;
-	z-index: 2;
-}
-
-#conteudo-menu {
-	margin-left: 90px;
-	margin-right: 15px;
-	padding-top: 15px;
-}
-
-#menu-locais {
-	border-bottom: 1px solid #b5ab56;
-	border-top: 1px solid #b5ab56;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-size: 0.7em;
-	color: #8b8448;
-}
-
-#menu-locais .locais {
-	float: left;
-	line-height: 2.1em;
-}
-
-a {
+a:link, a:active, a:visited {
+	color: #af670a;
 	text-decoration: none;
 }
 
-a.reserva {
-	text-transform: uppercase;
-	background: #a29750;
-	color: #fff5b0;
-	padding: 5px 10px;
-	float: right;
+a:hover {
+	color: #227115;
 }
 
-/* Barra de navegação vertical
-*/
-#menu {
-	margin-top: 15px;
+/* Logo 
+------------------------------------ */
+#logo h1 {
+	float: left;
 }
 
-ul {
+#logo a {
+	width: 248px;
+	height: 21px;
+	text-indent:  -9999px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+}
+
+
+/* Barra de navegação 
+------------------------------------ */
+header {
+	padding: 15px 0;
+	height: 55px;
+}
+
+nav ul {
 	list-style: none;
+	margin: 20px;
+	float: right;
 }
 
-ul#navegacao {
+nav ul li {
 	float: left;
 }
 
-ul#navegacao a {
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
 	text-transform: uppercase;
-	font-size: 0.8em;
-	padding: 5px;
-	color: #6e672c;
-	line-height: 30px;
 }
 
-ul#navegacao a:hover {
-	background: #fdf6be;
+nav ul li a:hover {
+	border-bottom: 1px solid #535858;
 }
 
-.depoimento {
-	width: 226px;
-	height: 164px;
-	float: right;
-}
-
-/* Área de conteúdos
-************************/
-#area-principal {
+/* Principal 
+------------------------------------ */
+#conteudo {
+	width: 710px;
 	float: left;
-	width: 50%;
-	background: url(../imagens/bg-area-principal.png) top left repeat-x;
-	padding: 15px 0px;
+	margin-bottom: 20px;
 }
 
-#area-lateral {
+aside {
+	width: 350px;
 	float: right;
-	width: 50%;
-	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
-	padding: 20px 0px;
+	background: #ebe7dd;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
 }
 
-.conteudo {
-	margin: 0 auto;
-	width: 90%;
+section#visita {
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
 }
 
-#rodape {
+section#galeria {
+	padding: 0 27px 0 27px;
+}
+
+section#galeria a {
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+}
+
+section#galeria img {
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+article#video {
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#mapa {
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+
+article#exposicoes {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+}
+
+article#historia {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+
+h3 {
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+/* Rodapé
+------------------------------------ */
+footer {
 	clear: both;
-	padding: 16px;
-	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
-	color: #7d7640;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+	margin-top: 20px;
+}
+
+footer>p a {
+	padding: 2px 10px;
 }
 
 
-/* Formatações de textos
-*/
-h2 {
-	color: #7d7640;
-	font-size: 1.1em;
-	padding: 5px 0px;
-}
-
-p {
+/* Formulários
+------------------------------------ */
+input {
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none;
 	font-size: 1em;
-	margin-bottom: 10px;
 }
 
-/* Formatações da area lateral
-*/
-#beneficios li {
-	padding: 8px;
-	border-bottom: 1px solid #f3efcb;
-	height: 6em;
+input.campo {
+	border:1px solid #ada484;
 }
 
-#beneficios li a img {
-	float: left;
-	margin-right: 8px;
+input.botao {
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
 }
 
-#beneficios li a p {
-	color: #000;
-	font-size: 0.8em;
+fieldset {
+	border: none;
 }
 
-#beneficios li a h3 {
-	font-size: 1em;
-	color: #615b2d;
-	padding: 5px 0;
-	background: url(../imagens/ornamento.png) no-repeat center right;
+legend {
+	display: none;
 }
-
-#beneficios li:hover {
-	background: #f6f3d6;
-	cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
