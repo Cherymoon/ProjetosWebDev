@@ -17,6 +17,9 @@ Projeto 4: CSS3 intermediário-avançado.
 Projeto 5: CSS3 intermediário-avançado. 
 ![p5](https://user-images.githubusercontent.com/47941429/75451875-0850f300-5950-11ea-8c19-59df5a8e14de.png)
 
+Projeto 6: Primeiro projeto em Bootstrap. Conceitos utilizados: Navbar, icons, forms e grid-system. 
+![pj6](https://user-images.githubusercontent.com/47941429/75640333-6bbe7780-5c13-11ea-9228-9ad9187ae29e.png)
+
 
 
 
