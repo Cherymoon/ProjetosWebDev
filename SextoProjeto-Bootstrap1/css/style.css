@@ -1,0 +1,46 @@
+body {
+    font-family: "Helvetica";
+    color: white;
+    
+}
+
+#nav-brand {
+    background: url(../imagens/logo.png) no-repeat;
+    width: 140px;
+    background-size: 140px;
+    text-indent: -3000px;
+}
+
+.c1 {
+    background: #FABC04;
+}
+
+.c2 {
+    color: black;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+img {
+    width: inherit;
+}
+
+footer .active a {
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    
+    .center {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .vantagens {
+    background-color: rgb(151, 159, 164,0.15);
+    border-radius: 30px;
+}
+}

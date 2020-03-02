@@ -1,0 +1,1 @@
+Esse foi um projeto inicial do curso de desenvolvimento web, em que o objetivo era criar um site utilizando somente HTML5. Portanto, sem a utilização de css e javascript. O layout de colunas foi feito utilizando o método de tabelas, que é uma técnica obsoleta e não recomendada.
