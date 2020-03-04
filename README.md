@@ -20,6 +20,9 @@ Projeto 5: CSS3 intermediário-avançado.
 Projeto 6: Primeiro projeto em Bootstrap. Conceitos utilizados: Navbar, icons, forms e grid-system. 
 ![pj6](https://user-images.githubusercontent.com/47941429/75640333-6bbe7780-5c13-11ea-9228-9ad9187ae29e.png)
 
+Projeto 8: Meu terceiro projeto em Bootstrap, o site consiste em um "clone" do Spotify. Novos conceitos foram aplicados, como Parallax e Carousel.
+![p8](https://user-images.githubusercontent.com/47941429/75913117-195aa200-5e31-11ea-9b0c-78136c4a395c.png)
+
 
 
 
