@@ -1,7 +1,7 @@
 # ProjetosWebDev
 Esse repositório contém os projetos que realizei durante curso de desenvolvimento web.
 <hr/>
-Segue abaixo algumas prévias e link para o site em <b>GitPages</b>(a partir do projeto 4)
+Segue abaixo algumas prévias e links para os sites em <b>GitPages</b>(a partir do projeto 4)
 <h2></h2>
 
 Projeto 1: Html puro, utilização da metologia de tabelas para desenvolver o layout.
