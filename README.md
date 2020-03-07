@@ -14,7 +14,6 @@ Projeto 3: CSS3 intermediário, utilização de divs, aside content e imagens co
 ![p3](https://user-images.githubusercontent.com/47941429/75451869-05ee9900-5950-11ea-864a-b0ccd527a124.png)
 
 Projeto 4: CSS3 intermediário-avançado.
-<hr>
 Acesse em <b>GitPages</b>: https://cherymoon.github.io/Projeto4-WebDev/
 ![p4](https://user-images.githubusercontent.com/47941429/75451871-06872f80-5950-11ea-8cb5-9a0daf04c053.png)
 
