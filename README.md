@@ -23,6 +23,10 @@ Projeto 6: Primeiro projeto em Bootstrap. Conceitos utilizados: Navbar, icons, f
 Projeto 8: Meu terceiro projeto em Bootstrap, o site consiste em um "clone" do Spotify. Novos conceitos foram aplicados, como Parallax e Carousel.
 ![p8](https://user-images.githubusercontent.com/47941429/75913565-f250a000-5e31-11ea-83c0-9d7399708902.png)
 
+Projeto 9: Meu primeiro projeto aplicando os aprendizados de JavaScript. Utilizei bootstrap para criar o layout da calculadora e JavaScript nas regras de calculo para a interação com a calculadora.
+![p9](https://user-images.githubusercontent.com/47941429/76132811-99c90080-5ff3-11ea-951e-f719ccdf7eca.png)
+
+
 
 
 
