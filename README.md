@@ -35,6 +35,11 @@ Acesse em <b>GitPages</b>: https://cherymoon.github.io/Projeto9-WebDev-JavaScrip
 ![p9](https://user-images.githubusercontent.com/47941429/76132811-99c90080-5ff3-11ea-951e-f719ccdf7eca.png)
 
 
+Projeto 10: Meu segundo projeto aplicando JavaScript, o projeto consiste na criação de um jogo simples e foca no aprendizado de JavaScript.
+Acesse em <b>GitPages</b>: https://cherymoon.github.io/Projeto10-WebDev-JavaScript-Jogo
+![p10](https://user-images.githubusercontent.com/47941429/76155648-783c4780-60cd-11ea-94b5-1be12df43677.png)
+
+
 
 
 
